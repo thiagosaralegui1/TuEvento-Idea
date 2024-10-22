@@ -1,0 +1,559 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+10&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Gruppo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*---HEADER---*/
+.logo img {
+  filter: drop-shadow(0 2px 2px black);
+}
+
+nav {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8c92ad;
+  position: relative;
+  height: 140px;
+  font-family: "Onest", sans-serif;
+  font-weight: bold;
+}
+
+.logo {
+  color: #fff;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.inicio:hover {
+  color: #050563d5 !important;
+}
+.crearEvento:hover {
+  color: #050563d5 !important;
+}
+.usuario {
+  background-color: #004274;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-weight: bold;
+  position: relative; /* Necesario para usar ::after */
+  transition: transform 0.2s ease; /* Suavizar el efecto de escala */
+}
+
+.usuario::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px; /* Grosor del subrayado */
+  background-color: #fff;
+  left: 0;
+  bottom: -5px; /* Posición debajo del botón */
+  transform: scaleX(0); /* Inicialmente el subrayado está invisible */
+  transform-origin: right; /* Comienza desde la derecha */
+  transition: transform 0.3s ease; /* Suavizar la animación */
+}
+.usuario:hover::after {
+  transform: scaleX(1);
+}
+
+.menu-icon {
+  display: none;
+}
+
+.menu-icon i {
+  color: #fff;
+  font-size: 30px;
+}
+/* Fin subHeader */
+
+.contenedor2 h1 {
+  margin-top: 180px;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px !important;
+  color: rgb(238, 238, 238) !important;
+}
+
+h5 {
+  margin-top: 130px;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px !important;
+  color: rgb(225, 225, 225) !important;
+}
+/*---ORGANIZAR---*/
+
+.titulo-organizar {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.grupo-boton {
+  display: flex;
+  justify-content: center; /* Asegura que los botones se centren horizontalmente */
+  width: 90%;
+  margin: 0 auto; /* centra horizontalmente porq tiene 0 de margin */
+}
+
+.boton-org {
+  flex: 1;
+  justify-content: center;
+  border-radius: 0px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: rgb(215, 217, 219);
+  min-width: 150px; /* Aumenta el ancho mínimo de los botones */
+}
+
+.contenedor-padre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.contenedor-funciones {
+  margin-top: 20px;
+  padding: 30px;
+  text-align: left;
+  background-color: rgba(193, 196, 196, 0.432);
+  box-shadow: 0 0 5px gray;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.grupo-input {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+}
+
+.grupo-input input {
+  margin-right: 400px;
+  background-color: rgba(16, 38, 238, 0.103);
+  border: none;
+  padding: 3px;
+  transition: 0.4s;
+  outline: none;
+}
+
+.grupo-input input:hover,
+input:active {
+  background-color: rgba(117, 116, 116, 0.308);
+  padding: 6px;
+}
+
+.opac {
+  opacity: 0.8;
+}
+
+.tit-org {
+  font-size: 30px;
+}
+
+.grupo-botones {
+  display: flex;
+  flex-direction: column;
+}
+
+.envio,
+.cancelar {
+  margin: 3px;
+  transition: 0.4s;
+  border: none;
+  background-color: rgb(87, 85, 85);
+}
+
+.used {
+  background-color: rgba(16, 38, 238, 0.315);
+}
+
+.active {
+  background-color: rgba(16, 38, 238, 0.527);
+}
+
+/*SALONES*/
+.contenedor-salones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contenedor-imagen-nombre {
+  margin: 20px;
+}
+
+.imagen-salones {
+  max-width: 380px;
+}
+
+.texto-salones {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+}
+
+.contenedor-texto-boton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #a0b3c7;
+  padding: 20px;
+}
+
+.contenedor-texto-boton input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #032447;
+  outline: none; /*eliminar el contorno de un elemento cuando esta enfocado*/
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.contenedor-texto-boton input[type="radio"]:checked {
+  background-color: #083f79;
+}
+
+.cont-botones {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.ant,
+.sig {
+  background-color: #5f7892;
+  border: none;
+  padding: 20px;
+}
+
+.omitir{
+  display: flex;
+}
+
+.omitir-btn {
+  background-color: #5f7892;
+  border: none;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+.omitir,
+.anterior,
+.siguiente button {
+  margin: 10px;
+}
+
+.catering-container,
+.dj-container,
+.camarografo-container,
+.bebidas-container,
+.cotillon-container {
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.catering-item,
+.dj-item,
+.camarografo-item,
+.bebidas-item,
+.cotillon-item {
+  flex: 1 1 30%; /* ocupa el 30% del ancho del conenedor */
+  margin: 1rem;
+  padding: 2rem;
+  background-color: #a0b3c7;
+  text-align: left;
+  box-shadow: 0 0 4px black;
+}
+
+.item-organizar input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #032447;
+  outline: none; /*eliminar el contorno de un elemento cuando esta enfocado*/
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.item-organizar input[type="radio"]:checked {
+  background-color: #083f79;
+}
+
+.catering-item img {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+.catering-item h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+.configurar-fondo {
+  top: 0;
+  left: 0;
+  background-image: url(imagenes/intro-1.jpg);
+}
+
+.contenedor-todo-organizar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.contenedor-error-organizar {
+  background-color: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 0 6px blue;
+}
+
+.boton-reintentar {
+  padding: 6px;
+  border: none;
+  background-color: #032447;
+  color: whitesmoke;
+  transition: 0.3s;
+}
+
+.boton-reintentar:hover {
+  background-color: #a0b3c7;
+  color: black;
+}
+
+/*PAGINA FINAL*/
+.muestra-resultados {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+.muestra-resultados h2 {
+  text-align: left;
+  margin-bottom: 8px;
+  margin-top: 12px;
+  font-size: 40px;
+}
+
+.muestra-resultados {
+  flex: 1 1 45%; /* ajusta el tamaño según sea necesario */
+  min-width: 300px;
+}
+
+.fondo {
+    padding: 30px;
+    text-align: left;
+    background-color: rgba(193, 196, 196, 0.432);
+    box-shadow: 0 0 5px gray;
+}
+
+.contenedor-flex-resultados {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.contenedor-presupuesto {
+  flex: 1 1 45%;
+  min-width: 300px; 
+}
+
+.contenedor-presupuesto {
+  display: flex;
+  margin-bottom: 24px;
+  flex-direction: column;
+}
+
+.contenedor-presupuesto h2 {
+  text-align: left;
+  margin-bottom: 8px;
+  margin-top: 12px;
+  font-size: 40px;
+}
+
+.contenedor-presupuesto p {
+  font-size: 23px;
+}
+
+.tamtit h4 {
+  font-size: calc(1.275rem + .3vw); /*sacado de Bootstrap para emparejar*/
+  margin-top: 30px;
+  
+}
+
+.tamtit img {
+  max-width: 450px;
+  width: 100%;
+}
+
+.seleccion h4 {
+  margin: 10px 0 10px 0;
+}
+
+.boton-reiniciar button {
+  padding: 9px;
+  border: none;
+  box-shadow: 0 0 6px blue;
+  border-radius: 12px;
+  background-color: cadetblue;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: "Poppins", serif;
+  transition: .4s;
+}
+
+.boton-back-home-resultados button {
+  padding: 9px;
+  border: none;
+  box-shadow: 0 0 6px blue;
+  border-radius: 12px;
+  background-color: cadetblue;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: "Poppins", serif;
+  transition: .4s;
+}
+
+.boton-reiniciar button:hover {
+  background-color: #4CAF50;
+}
+
+.boton-back-home-resultados button:hover {
+  background-color: #4CAF50;
+}
+
+
+@media (max-width: 768px) {
+  .grupo-boton {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .boton-org {
+    flex: 1 1 45%; /*tiene un 45% inicial y se agranda y achica si hay espacio*/
+    margin-bottom: 10px;
+  }
+
+  .contenedor-salones {
+    justify-content: center; /* Asegura que todo esté centrado */
+    flex-direction: column; /* Cambia la dirección a columna */
+    align-items: center; /* Centra los elementos hijos */
+  }
+
+  .contenedor-imagen-nombre {
+    margin: 10px;
+    text-align: center; /* Alinea el contenido de cada item al centro */
+  }
+
+  .imagen-salones {
+    max-width: 400px;
+  }
+
+  .texto-salones {
+    font-size: 24px;
+  }
+
+  .contenedor-texto-boton {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contenedor-texto-boton input[type="radio"] {
+    width: 18px;
+    height: 18px;
+  }
+
+  .anterior,
+  .siguiente {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .boton-org {
+    flex: 1 1 100%;
+  }
+
+  .grupo-input input {
+    margin-right: 0;
+  }
+
+  .tit-org {
+    font-size: 20px;
+  }
+
+  .contenedor-salones {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contenedor-imagen-nombre {
+    margin: 5px;
+    text-align: center;
+  }
+
+  .imagen-salones {
+    max-width: 300px;
+  }
+
+  .texto-salones {
+    font-size: 18px;
+  }
+
+  .contenedor-texto-boton {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contenedor-texto-boton input[type="radio"] {
+    width: 15px;
+    height: 15px;
+  }
+
+  .anterior,
+  .siguiente {
+    padding: 10px;
+  }
+}
