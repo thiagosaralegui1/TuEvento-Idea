@@ -1,18 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+10&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Gruppo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Gruppo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* Style inicio */
 * {
   margin: 0;
   padding: 0;
 }
-
-
 
 .contenedor {
   background-image: url(imagenes/intro-1.jpg);
@@ -22,25 +20,18 @@
   background-attachment: fixed;
 }
 
-
-
-
 /* Header*/
-
 
 .logo img {
   /* filter: drop-shadow(0 2px 2px black); */
   height: 135px;
 }
 
-
-
 nav {
- 
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+
   background-color: rgb(238, 238, 238) !important;
 
   height: 105px;
@@ -48,18 +39,16 @@ nav {
   font-weight: bold;
 }
 
-
-.MenuList{
- display: flex;
+.MenuList {
+  display: flex;
   align-items: center;
 }
 nav ul {
- display: flex;
- align-items: center;
+  display: flex;
+  align-items: center;
   gap: 20px;
   padding-right: 10px;
 }
-
 
 nav ul li {
   list-style-type: none;
@@ -67,9 +56,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  
-} 
-
+}
 
 /* .inicio:hover{
   color: #050563d5 !important;
@@ -79,7 +66,7 @@ nav ul li a {
 } */
 .usuario {
   /* background-color: #004274; */
-  color:  #050563d5;
+  color: #050563d5;
   padding: 0.5rem 1rem;
   border: none;
   outline: none;
@@ -94,7 +81,7 @@ nav ul li a {
 }
 
 .usuario::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 2px;
@@ -110,20 +97,19 @@ nav ul li a {
   transition: transform 0.3s ease;
   /* Suavizar la animación */
 }
-.usuario:hover::after{
-  transform: scaleX(1); 
+.usuario:hover::after {
+  transform: scaleX(1);
 }
 
-.menu-icon{
+.menu-icon {
   display: none;
 }
 
-.menu-icon i{
+.menu-icon i {
   color: #fff;
   font-size: 30px;
 }
 /* Fin Header */
-
 
 .contenedor2 h1 {
   margin-top: 180px;
@@ -155,7 +141,7 @@ h5 {
 }
 
 .contenedor3 .text-bg-dark {
-  color: #000000!important;
+  color: #000000 !important;
   background-color: rgba(227, 226, 226, 0.866) !important;
   margin-bottom: 60px !important;
 }
@@ -167,7 +153,8 @@ h5 {
 }
 
 .card-text p {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 17px;
 }
 
@@ -239,38 +226,33 @@ h5 {
   color: #e4e4e4 !important;
 }
 
-
-.card{
+.card {
   box-shadow: 0 10px 10px black;
   background-color: #f1f1f1 !important;
 }
 
 .card-img-bottom {
   width: 100%;
-  height: 300px;  
-  
+  height: 300px;
 }
 
-.conte-img{
+.conte-img {
   display: flex;
   flex-wrap: wrap;
 }
 
 .serv2 .card-img-bottom1 {
   width: 50% !important;
-  height: 200px !important; 
+  height: 200px !important;
 }
 
-
-
-.card-title{
+.card-title {
   color: #414141 !important;
   font-family: "Oswald", sans-serif;
-
 }
 
 /*Agregar a filezilla1*/
-.contenedor-servicios h4{
+.contenedor-servicios h4 {
   text-align: center;
   font-family: "Poppins", serif;
   font-size: 30px;
@@ -278,7 +260,7 @@ h5 {
   color: #00010a !important;
 }
 
-.contenedor-servicios .titulovich h4{
+.contenedor-servicios .titulovich h4 {
   text-align: center;
   font-family: "Poppins", serif;
   font-weight: 700;
@@ -287,23 +269,22 @@ h5 {
   padding-top: 30px;
 }
 
-.serv1 { 
+.serv1 {
   display: flex;
   justify-content: center;
 }
 
-.serv2 { 
-  display: flex;
-  justify-content: center;
-  
-}
-
-.serv3 { 
+.serv2 {
   display: flex;
   justify-content: center;
 }
 
-.contenedor-servicios{
+.serv3 {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-servicios {
   background-color: #8c92ad;
   padding-bottom: 10px;
 }
@@ -319,7 +300,6 @@ h5 {
   background-color: #d844007e;
   width: 40%;
 }
-
 
 /* Footer */
 footer {
@@ -349,7 +329,6 @@ footer {
 .logoFooter {
   display: flex;
   /* align-items: center; */
-
 }
 
 .contieneNav2 {
@@ -432,15 +411,12 @@ footer {
 
 /* Fin Footer Inicio */
 
-
-
 /* Footer inicio-usuario */
 /* .footerUsuario {
   display: flex;
   justify-content: space-between !important;
 
 } */
-
 
 .formularioFooter {
   display: flex;
@@ -484,7 +460,12 @@ footer {
 
 /* Fin Footer */
 
-.conte_salon,.conte_camarografo,.conte_cotillon,.conte_catering,.conte_dj,.conte_bebidas {
+.conte_salon,
+.conte_camarografo,
+.conte_cotillon,
+.conte_catering,
+.conte_dj,
+.conte_bebidas {
   max-width: 400px;
   margin: 0 auto;
   background-color: #f4f4f9;
@@ -494,12 +475,18 @@ footer {
   font-family: Arial, sans-serif;
 }
 
-.conte_salon h1, .conte_salon h2,.conte_camarografo h1,.conte_cotillon h1,.conte_catering h1,.conte_catering h2,.conte_dj h1,.conte_bebidas h1 {
+.conte_salon h1,
+.conte_salon h2,
+.conte_camarografo h1,
+.conte_cotillon h1,
+.conte_catering h1,
+.conte_catering h2,
+.conte_dj h1,
+.conte_bebidas h1 {
   text-align: center;
   color: #333;
   font-size: 20px;
 }
-
 
 .OcultarSalones {
   display: none;
@@ -513,16 +500,15 @@ footer {
   display: none;
 }
 
-.OcultarCotillon{
+.OcultarCotillon {
   display: none;
 }
 
-
-.OcultarBebidas{
+.OcultarBebidas {
   display: none;
 }
 
-.OcultarCamara{
+.OcultarCamara {
   display: none;
 }
 
@@ -530,15 +516,12 @@ footer {
 
 /* Style para inicio_usuario */
 
-  
-
-.buttonPerfil{
+.buttonPerfil {
   background-color: transparent;
   border: none;
   cursor: pointer;
-
 }
-.buttonPerfil:hover{
+.buttonPerfil:hover {
   background-color: #0056b3; /* Efecto al pasar el mouse */
 }
 
@@ -563,7 +546,7 @@ footer {
   margin: 5px 0;
   color: #333;
   text-decoration: none;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 14px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -579,7 +562,7 @@ footer {
   margin: 0;
   padding: 10px;
   color: #666;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 14px;
   border-bottom: 1px solid #ddd; /* Línea de separación */
 }
@@ -598,7 +581,6 @@ footer {
   padding: 0;
   font-family: "Bebas Neue", serif;
   overflow: hidden; /* Esto asegura que el pseudo-elemento no sobresalga */
-
 }
 
 .contieneServicios::before {
@@ -631,34 +613,34 @@ footer {
   align-items: center;
   overflow: hidden; /* Para que el video no sobresalga del contenedor */
 }
-.mainDJ{
+.mainDJ {
   position: relative;
   width: 100%;
   height: 110vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden; 
+  overflow: hidden;
 }
-.mainCatering{
+.mainCatering {
   height: 120vh; /* Asegura que ocupe toda la ventana */
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden; 
+  overflow: hidden;
 }
-.mainCotillon{
+.mainCotillon {
   position: relative;
   width: 100%;
   height: 110vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden; 
+  overflow: hidden;
 }
-.mainBebidas{
+.mainBebidas {
   position: relative;
   display: flex;
   justify-content: center;
@@ -667,7 +649,7 @@ footer {
   width: 100%;
   height: 105vh;
 }
-.mainCamarografo{
+.mainCamarografo {
   position: relative;
   display: flex;
   justify-content: center;
@@ -688,137 +670,133 @@ footer {
   object-fit: cover; /* Para que el video cubra todo el contenedor sin deformarse */
   transform: translate(-50%, -50%);
   z-index: -1; /* Coloca el video detrás del formulario */
-  filter:blur(5px) ;
+  filter: blur(5px);
 }
 
 /* Estilo para el contenedor del formulario */
 .conte_salon {
   position: relative;
-  background-color: white;  
+  background-color: white;
   padding: 20px;
   height: 53rem;
   margin: 10px 0px;
   border-radius: 10px;
   z-index: 1; /* Coloca el formulario por delante del video */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-.conte_dj{
+.conte_dj {
   position: relative;
-  background-color: white;  
-  padding: 20px;
-  border-radius: 10px;
-  z-index: 1; /* Coloca el formulario por delante del video */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
-}
-.conte_catering{
-  position: relative;
-  background-color: white;  
+  background-color: white;
   padding: 20px;
   border-radius: 10px;
   z-index: 1; /* Coloca el formulario por delante del video */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-.conte_cotillon{
+.conte_catering {
   position: relative;
-  background-color: white;  
+  background-color: white;
   padding: 20px;
   border-radius: 10px;
   z-index: 1; /* Coloca el formulario por delante del video */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.conte_cotillon {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1; /* Coloca el formulario por delante del video */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   width: 300px;
 }
-.conte_bebidas{
+.conte_bebidas {
   position: relative;
-  background-color: white;  
+  background-color: white;
   padding: 20px;
   border-radius: 10px;
   z-index: 1; /* Coloca el formulario por delante del video */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-.conte_camarografo{
+.conte_camarografo {
   position: relative;
-  background-color: white;  
+  background-color: white;
   padding: 20px;
   border-radius: 10px;
   z-index: 1; /* Coloca el formulario por delante del video */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-.conte_salon p{
+.conte_salon p {
   font-family: "Onest", sans-serif;
 }
-.conte_salon h1{
-  font-family: "Onest", sans-serif;
-  font-weight: bold;
-  font-size: x-large;
-}
-.conte_dj h1{
+.conte_salon h1 {
   font-family: "Onest", sans-serif;
   font-weight: bold;
   font-size: x-large;
 }
-.conte_catering h1{
+.conte_dj h1 {
   font-family: "Onest", sans-serif;
   font-weight: bold;
   font-size: x-large;
 }
-.conte_cotillon h1{
+.conte_catering h1 {
   font-family: "Onest", sans-serif;
   font-weight: bold;
   font-size: x-large;
 }
-.conte_bebidas h1{
+.conte_cotillon h1 {
   font-family: "Onest", sans-serif;
   font-weight: bold;
   font-size: x-large;
-
 }
-.conte_camarografo h1{
+.conte_bebidas h1 {
   font-family: "Onest", sans-serif;
   font-weight: bold;
   font-size: x-large;
-
 }
-.conte_catering h2{
+.conte_camarografo h1 {
+  font-family: "Onest", sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+}
+.conte_catering h2 {
   font-family: "Onest", sans-serif;
   font-weight: bold;
   font-size: larger;
 }
 
-
-.conte_salon label{
+.conte_salon label {
   font-family: "Onest", sans-serif;
   font-weight: 600;
-  margin-bottom:5px ;
+  margin-bottom: 5px;
 }
-.conte_dj label{
+.conte_dj label {
   font-family: "Onest", sans-serif;
   font-weight: 600;
-  margin-bottom:5px ;
+  margin-bottom: 5px;
 }
-.conte_catering label{
+.conte_catering label {
   font-family: "Onest", sans-serif;
   font-weight: 600;
-  margin-bottom:5px ;
+  margin-bottom: 5px;
 }
-.conte_cotillon label{
+.conte_cotillon label {
   font-family: "Onest", sans-serif;
   font-weight: 600;
-  margin-bottom:5px ;
+  margin-bottom: 5px;
 }
-.conte_bebidas label{
+.conte_bebidas label {
   font-family: "Onest", sans-serif;
   font-weight: 600;
-  margin-bottom:5px ;
+  margin-bottom: 5px;
 }
-.conte_camarografo label{
+.conte_camarografo label {
   font-family: "Onest", sans-serif;
   font-weight: 600;
-  margin-bottom:5px ;
+  margin-bottom: 5px;
   font-size: 16px;
 }
 
-
-.conte_salon input{
+.conte_salon input {
   border-style: none;
   font-family: "Onest", sans-serif;
   border-radius: 5px;
@@ -826,22 +804,22 @@ footer {
   background-color: hsl(0, 13%, 92%);
   margin-bottom: 5px;
 }
-.label{
+.label {
   width: 100%;
   height: 30px;
 }
-.conte_dj input{
+.conte_dj input {
   border-style: none;
   font-family: "Onest", sans-serif;
   border-radius: 5px;
   padding-left: 5px;
   background-color: hsl(0, 13%, 92%);
   margin-bottom: 5px;
- /*  padding-top: 5px;
+  /*  padding-top: 5px;
   padding-bottom: 5px; */
   font-size: 15px;
-} 
-.conte_catering input{
+}
+.conte_catering input {
   border-style: none;
   font-family: "Onest", sans-serif;
   border-radius: 5px;
@@ -849,11 +827,11 @@ footer {
   background-color: hsl(0, 13%, 92%);
   margin-bottom: 5px;
   margin-top: 5px;
- /*  padding-top: 3px;
+  /*  padding-top: 3px;
   padding-bottom: 3px; */
   font-size: 15px;
-} 
-.conte_cotillon input{
+}
+.conte_cotillon input {
   border-style: none;
   font-family: "Onest", sans-serif;
   border-radius: 5px;
@@ -865,7 +843,7 @@ footer {
   padding-bottom: 5px; */
   font-size: 15px;
 }
-.conte_bebidas input{
+.conte_bebidas input {
   border-style: none;
   font-family: "Onest", sans-serif;
   border-radius: 5px;
@@ -873,12 +851,12 @@ footer {
   background-color: hsl(0, 13%, 92%);
   margin-bottom: 5px;
   margin-top: 5px;
- /*  padding-top: 5px;
+  /*  padding-top: 5px;
   padding-bottom: 5px; */
   height: 30px;
   font-size: 15px;
 }
-.conte_camarografo input{
+.conte_camarografo input {
   border-style: none;
   font-family: "Onest", sans-serif;
   border-radius: 5px;
@@ -890,12 +868,11 @@ footer {
   font-size: 16px;
 }
 
-
 .conte_salon input[type="button"] {
   width: 100%;
   height: 50px;
   border: 1px solid;
-  background: #31312F;
+  background: #31312f;
   border-radius: 25px;
   font-size: 18px;
   color: white;
@@ -904,15 +881,15 @@ footer {
 }
 
 .conte_salon input[type="button"]:hover {
-  border-color: #31312F;
-  transition: .5s;
+  border-color: #31312f;
+  transition: 0.5s;
 }
 
 .conte_dj input[type="button"] {
   width: 100%;
   height: 50px;
   border: 1px solid;
-  background: #31312F;
+  background: #31312f;
   border-radius: 25px;
   font-size: 18px;
   color: white;
@@ -921,14 +898,14 @@ footer {
 }
 
 .conte_dj input[type="button"]:hover {
-  border-color: #31312F;
-  transition: .5s;
+  border-color: #31312f;
+  transition: 0.5s;
 }
 .conte_catering input[type="button"] {
   width: 100%;
   height: 50px;
   border: 1px solid;
-  background: #31312F;
+  background: #31312f;
   border-radius: 25px;
   font-size: 18px;
   color: white;
@@ -937,14 +914,14 @@ footer {
 }
 
 .conte_catering input[type="button"]:hover {
-  border-color: #31312F;
-  transition: .5s;
+  border-color: #31312f;
+  transition: 0.5s;
 }
 .conte_cotillon input[type="button"] {
   width: 100%;
   height: 50px;
   border: 1px solid;
-  background: #31312F;
+  background: #31312f;
   border-radius: 25px;
   font-size: 18px;
   color: white;
@@ -953,14 +930,14 @@ footer {
 }
 
 .conte_cotillon input[type="button"]:hover {
-  border-color: #31312F;
-  transition: .5s;
+  border-color: #31312f;
+  transition: 0.5s;
 }
 .conte_bebidas input[type="button"] {
   width: 100%;
   height: 50px;
   border: 1px solid;
-  background: #31312F;
+  background: #31312f;
   border-radius: 25px;
   font-size: 18px;
   color: white;
@@ -969,14 +946,14 @@ footer {
 }
 
 .conte_bebidas input[type="button"]:hover {
-  border-color: #31312F;
-  transition: .5s;
+  border-color: #31312f;
+  transition: 0.5s;
 }
 .conte_camarografo input[type="button"] {
   width: 100%;
   height: 50px;
   border: 1px solid;
-  background: #31312F;
+  background: #31312f;
   border-radius: 25px;
   font-size: 18px;
   color: white;
@@ -985,31 +962,31 @@ footer {
 }
 
 .conte_camarografo input[type="button"]:hover {
-  border-color: #31312F;
-  transition: .5s;
+  border-color: #31312f;
+  transition: 0.5s;
 }
 
-.labelFotoSalon{
- margin-top: 10px ;
+.labelFotoSalon {
+  margin-top: 10px;
 }
 
 main {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   background-image: url(imagenes/intro-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
-
 }
 
-.main2{
+.main2 {
   height: 113vh;
 }
 
-.mainRegistroProv{
+.mainRegistroProv {
   height: 60rem;
 }
 .contenedorDatos {
@@ -1022,7 +999,6 @@ main {
 .contenedorDatos img {
   /* filter: drop-shadow(0 2px 2px black); */
   height: 135px;
-
 }
 /* Formulario 2 */
 .formulario2 {
@@ -1037,9 +1013,7 @@ main {
   border-radius: 10px;
 }
 
-
 .formulario2 h1 {
-
   text-align: center;
   padding: 20px 0 20px 0;
   border-bottom: 1px solid silver;
@@ -1053,13 +1027,12 @@ main {
   padding-bottom: 20px;
 }
 
-.cargar{
+.cargar {
   margin-top: 10px;
 }
 /* Fin Formulario 2 */
 
 /* Formulario 1 */
-
 
 .formulario {
   margin-top: 80px;
@@ -1072,9 +1045,7 @@ main {
   border-radius: 10px;
 }
 
-
 .formulario h1 {
-
   text-align: center;
   padding: 20px 0 20px 0;
   border-bottom: 1px solid silver;
@@ -1094,12 +1065,10 @@ form .datos {
   position: relative;
   border-bottom: 2px solid #adadad;
   margin: 30px 0;
-
 }
 path {
-color: grey !important;
+  color: grey !important;
 }
-
 
 .datos {
   width: 100%;
@@ -1129,32 +1098,28 @@ color: grey !important;
   transform: translateY(-50%);
   font-size: 16px;
   pointer-events: none;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .datos span::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 40px;
   left: 0;
   width: 100%;
   height: 2px;
-  background: #6C3483;
-  transition: .5s;
+  background: #6c3483;
+  transition: 0.5s;
 }
 
-.datos input:focus~label,
-.datos input:valid~label {
+.datos input:focus ~ label,
+.datos input:valid ~ label {
   top: -5px;
   color: #050563d5;
   transition: top 0.3s ease, color 0.3s ease;
-
 }
 
-
-
 /* Fin de style para datos */
-
 
 /* Style para datos 2 */
 
@@ -1162,19 +1127,17 @@ form .datos2 {
   position: relative;
   border-bottom: 2px solid #adadad;
   margin: 20px 0;
-
 }
 
 .datos2 input {
   width: 100%;
-  padding: 0 5  px;
+  padding: 0 5 px;
   height: 40px;
   font-size: 16 px;
   border: none;
   background: none;
   outline: none;
 }
-
 
 .datos2 label {
   position: absolute;
@@ -1184,31 +1147,29 @@ form .datos2 {
   transform: translateY(-50%);
   font-size: 16px;
   pointer-events: none;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-
 .datos2 span::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 40px;
   left: 0;
   width: 100%;
   height: 10px;
-  background: #6C3483;
-  transition: .5s;
+  background: #6c3483;
+  transition: 0.5s;
 }
 
-.datos2 input:focus~label,
-.datos2 input:valid~label {
+.datos2 input:focus ~ label,
+.datos2 input:valid ~ label {
   top: -5px;
   color: #050563d5;
   transition: top 0.3s ease, color 0.3s ease;
-
 }
 
-.datos2 input:focus~span::before,
-.datos2 input:focus~span::before {
+.datos2 input:focus ~ span::before,
+.datos2 input:focus ~ span::before {
   width: 100%;
 }
 
@@ -1228,7 +1189,7 @@ input[type="submit"] {
   width: 100%;
   height: 50px;
   border: 1px solid;
-  background: #31312F;
+  background: #31312f;
   border-radius: 25px;
   font-size: 18px;
   color: white;
@@ -1237,8 +1198,8 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  border-color: #31312F;
-  transition: .5s;
+  border-color: #31312f;
+  transition: 0.5s;
 }
 
 .registrarse {
@@ -1269,9 +1230,9 @@ input[type="submit"]:hover {
 
 .datos2 input[type="checkbox"] {
   margin-right: -50px;
-  transform: scale(0.5); 
+  transform: scale(0.5);
 }
-.datos3 input[type="checkbox"]{
+.datos3 input[type="checkbox"] {
   margin: 12px;
 }
 
@@ -1290,16 +1251,14 @@ input[type="submit"]:hover {
 
 /* ---------------------------------------Inicio Sesion Proovedor------------------------------------ */
 
-
 /*BANNER*/
 .banner,
 .banner2 {
   margin: 0 auto;
-  transition: .4s;
+  transition: 0.4s;
   box-shadow: 0 0 20px rgb(0, 0, 63);
-
 }
-.formularioRegistroProv{
+.formularioRegistroProv {
   margin-top: 19rem;
   position: absolute;
   top: 50%;
@@ -1309,13 +1268,9 @@ input[type="submit"]:hover {
   /* max-height: 500px; */
   background: white;
   border-radius: 10px;
-
 }
 
-
-
 .formularioRegistroProv h1 {
-
   text-align: center;
   padding: 20px 0 20px 0;
   border-bottom: 1px solid silver;
@@ -1328,32 +1283,30 @@ input[type="submit"]:hover {
   box-sizing: border-box;
   padding-bottom: 20px;
 }
-.contieneBotonProv{
+.contieneBotonProv {
   margin-top: 40px;
   display: flex;
   justify-content: center;
 }
-.btn{
+.btn {
   position: relative;
   padding: 20px 50px;
   text-decoration: none;
   color: #fff !important;
- /*  letter-spacing: 10px; */
-/*   text-indent: 10px; */
-/*   z-index: 2; */
+  /*  letter-spacing: 10px; */
+  /*   text-indent: 10px; */
+  /*   z-index: 2; */
   font-family: "Onest";
   /* font-family: "Bebas Neue", sans-serif; */
- font-size: 20px !important;
-  
+  font-size: 20px !important;
 }
-.btn-1{
+.btn-1 {
   overflow: hidden;
   border: 3px solid #8c92ad !important;
   z-index: 2;
 }
 
-
-.btn-1::before{
+.btn-1::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -1366,7 +1319,7 @@ input[type="submit"]:hover {
   z-index: -1;
 }
 
-.btn-1:hover:before{
+.btn-1:hover:before {
   top: 0;
   border-radius: 0%;
 }
@@ -1390,14 +1343,14 @@ input[type="submit"]:hover {
 
 }
  */
- /* Contenedor general de la lista de salones */
- .contiene-Verificacion {
+/* Contenedor general de la lista de salones */
+.contiene-Verificacion {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 20px;
   font-family: "Poppins", sans-serif;
-    font-weight: 400;
+  font-weight: 400;
 }
 
 /* Cada contenedor de un salón individual */
@@ -1406,17 +1359,16 @@ input[type="submit"]:hover {
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 20px;
-  width: 20rem ; /* Mostrar 3 salones por fila, ajustable */
+  width: 20rem; /* Mostrar 3 salones por fila, ajustable */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
-.salon p{
+.salon p {
   font-family: "Poppins", sans-serif;
-    font-weight: 400;
+  font-weight: 400;
 }
 
 /* Título del salón */
@@ -1460,7 +1412,8 @@ input[type="submit"]:hover {
   margin-left: 100px;
   margin-right: 100px;
   padding: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: hsla(0, 0%, 100%, 0.719);
   border: 1px solid black;
   border-radius: 12px;
@@ -1471,7 +1424,8 @@ input[type="submit"]:hover {
   margin-left: 100px;
   margin-right: 100px;
   padding: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: hsla(0, 0%, 100%, 0.719);
   border: 1px solid black;
   border-radius: 12px;
@@ -1484,23 +1438,23 @@ input[type="submit"]:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  position: relative; 
+  position: relative;
   min-height: 100vh; /* Asegura que cubra la altura de la pantalla */
 }
 
 /* Contenedor del blog */
 .contenedor-blog {
-  
   padding: 20px;
-  max-width: 1200px; 
-  margin: 0 auto; 
-  position: relative; 
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
   z-index: 1; /* Asegura que esté por encima de la imagen de fondo */
 }
 
 .contenedor-blog h4 {
   text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 30px;
   margin-bottom: 20px;
   color: #00010a !important;
@@ -1508,9 +1462,9 @@ input[type="submit"]:hover {
 
 /* Cuadro alrededor del título "Últimas Actualizaciones" */
 .titulo1 {
-  background-color: rgb(114, 141, 187); 
-  padding: 20px; 
-  border-radius: 8px; 
+  background-color: rgb(114, 141, 187);
+  padding: 20px;
+  border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1519,19 +1473,18 @@ input[type="submit"]:hover {
 }
 
 .titulo1 h4 {
-  margin: 0; 
-  color: white; 
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 30px;
 }
 
-
-
 .actu1 {
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: center; 
-  gap: 20px; 
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 .tarjeta {
@@ -1544,70 +1497,26 @@ input[type="submit"]:hover {
 
 .tarjeta-img-bottom {
   width: 100%;
-  height: 300px;  
+  height: 300px;
 }
 
 .tarjeta-body p {
   font-size: 15px;
 }
 
-.lista-inv {
-  max-width: 65rem;
-  width: 100%;
-  margin: 2rem auto;
-  padding: 5rem;
-  text-align: center;
-  background: #fff;
-  border: 0.5rem solid #34495e;
+.contenedor-lista-invitados {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background-color: rgb(238, 238, 238);
 }
-
-.boton-inv {
-  font-size: 2em;
-  background: #3498db;
-  color: #fff;
-  border: 0.25rem solid #3498db;
-  padding: 0.85em 0.75em;
-  margin: 1rem;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-}
-
-.boton-inv:hover {
-  color: #3498db;
-}
-
-.boton-inv::after {
-  content: "";
-  background: #ecf0f1;
-  position: absolute;
-  z-index: -1;
-  padding: 0.85em 0.75em;
-  display: block;
-}
-
-button.grow_ellipse::after {
-  border-radius: 50%;
-  left: -50%;
-  right: -50%;
-  top: -150%;
-  bottom: -150%;
-  line-height: 8.34em;
-  transform: scale(0, 0);
-}
-button.grow_ellipse:hover::after {
-  transform: scale(1, 1);
-}
-
 
 @media (max-width: 768px) {
   .tarjeta {
-    max-width: 90%; 
+    max-width: 90%;
   }
 }
 
-
-  
 /* ---------------Carrusel de imagenes------------- */
 .contenedor-presentacion {
   max-width: 1000px;
@@ -1816,7 +1725,7 @@ button.grow_ellipse:hover::after {
 
 /*--Graficas--*/
 
-.graf-general{
+.graf-general {
   height: 120vh;
 }
 .contenedor-promedios {
@@ -1838,9 +1747,9 @@ button.grow_ellipse:hover::after {
   border: none;
   border-radius: 1px;
   background-color: #3470ac;
-  color: white; 
-  font-size: 16px; 
-  cursor: pointer; 
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
   transition: 0.1s;
   width: 240px;
 }
@@ -1855,7 +1764,8 @@ button.grow_ellipse:hover::after {
 }
 
 .promedios p {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .promedios a {
@@ -1885,9 +1795,9 @@ button.grow_ellipse:hover::after {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%; 
+  width: 100%;
   max-width: 1200px;
-  height: auto; 
+  height: auto;
   background-color: #c8d4e0;
   padding: 30px;
   border-radius: 12px;
@@ -1914,11 +1824,10 @@ button.grow_ellipse:hover::after {
 }
 
 #myChart {
-  width: 100%; 
+  width: 100%;
   height: auto;
   max-height: 400px;
 }
-
 
 /* Media Query */
 
@@ -1928,10 +1837,9 @@ button.grow_ellipse:hover::after {
     margin-top: 200px;
   }
 
-  .serv2{ 
+  .serv2 {
     max-width: 100%;
   }
-
 
   h5 {
     margin-top: 100px;
@@ -1948,7 +1856,6 @@ button.grow_ellipse:hover::after {
     margin-bottom: 20px;
   }
 
-
   .contenedor4 h3 {
     font-size: 30px;
   }
@@ -1958,7 +1865,9 @@ button.grow_ellipse:hover::after {
     padding: 8px;
   }
 
-  .serv3,.serv2,.serv1{
+  .serv3,
+  .serv2,
+  .serv1 {
     justify-content: center !important;
     flex-direction: column;
     max-width: 90%;
@@ -1970,7 +1879,7 @@ button.grow_ellipse:hover::after {
     margin-right: 100px;
   }
 }
-@media (width < 1150px){
+@media (width < 1150px) {
   nav ul {
     border-top: #000000 solid 1px;
     position: absolute;
@@ -1982,14 +1891,13 @@ button.grow_ellipse:hover::after {
     background-color: rgb(238, 238, 238);
     gap: 0;
     overflow: hidden;
-    
   }
   nav ul li {
     /* padding: 20px; */
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  .liIniciaSesion{
+  .liIniciaSesion {
     margin-right: 130px;
     width: 10rem;
   }
@@ -2005,30 +1913,29 @@ button.grow_ellipse:hover::after {
   }
 }
 @media (width < 768px) {
-  .inicio:hover{
-    color:rgb(114, 141, 187) !important;
-}
-.crearEvento:hover{
-    color: rgb(114, 141, 187)!important;
-}
-  .menu{
-   margin: 40px 140px;
+  .inicio:hover {
+    color: rgb(114, 141, 187) !important;
   }
-  .listaMenu{
+  .crearEvento:hover {
+    color: rgb(114, 141, 187) !important;
+  }
+  .menu {
+    margin: 40px 140px;
+  }
+  .listaMenu {
     height: 400px;
   }
-  
+
   .contenedor2 h1 {
     font-size: 35px;
     margin-top: 150px;
   }
 
-  .serv2 { 
+  .serv2 {
     justify-content: center !important;
     flex-direction: column;
     max-width: 90%;
   }
-
 
   h5 {
     margin-top: 80px;
@@ -2060,15 +1967,15 @@ button.grow_ellipse:hover::after {
     font-size: 15px;
   }
 
-
-
-  .serv3{
+  .serv3 {
     justify-content: center !important;
     flex-direction: column;
     max-width: 90%;
   }
 
-  .serv3,.serv2,.serv1{
+  .serv3,
+  .serv2,
+  .serv1 {
     justify-content: center !important;
     flex-direction: column;
     max-width: 90%;
@@ -2083,7 +1990,7 @@ button.grow_ellipse:hover::after {
   .contenedor-global-graf h4 {
     font-size: 2.5rem; /* Ajusta el tamaño de fuente */
   }
-  
+
   .contenedor-global-graf p {
     font-size: 1.2rem; /* Ajusta el tamaño de fuente */
   }
@@ -2095,9 +2002,9 @@ button.grow_ellipse:hover::after {
   #myChart {
     max-height: 300px; /* Altura máxima ajustada */
   }
-  .contiene-Verificacion{
+  .contiene-Verificacion {
     display: flex;
-    
+
     align-items: center;
     flex-direction: column;
   }
@@ -2112,32 +2019,29 @@ button.grow_ellipse:hover::after {
   .contenedorDeNav3 {
     display: flex;
     flex-direction: column;
-    margin-bottom:30px ;
+    margin-bottom: 30px;
   }
-  .contieneNav3{
+  .contieneNav3 {
     margin: 20px 0px;
   }
-  .contieneNav4{
-  position: relative;
-  right: 7rem;
-  
+  .contieneNav4 {
+    position: relative;
+    right: 7rem;
   }
-  .contieneFinalFooter{
+  .contieneFinalFooter {
     margin-top: 20rem;
   }
 }
 
 @media (max-width: 576px) {
-
-
   .contenedor2 h1 {
     font-size: 28px;
     margin-top: 100px;
   }
 
-.contenedor-servicios{
-  flex-direction: column;
-}
+  .contenedor-servicios {
+    flex-direction: column;
+  }
 
   h5 {
     margin-top: 50px;
@@ -2167,12 +2071,13 @@ button.grow_ellipse:hover::after {
     max-width: 100%;
   }
 
-  .boton1, .boton2 {
+  .boton1,
+  .boton2 {
     min-width: 100px;
     padding: 15px;
   }
 
-  .conte-footer{
+  .conte-footer {
     flex-direction: column;
     align-items: center;
   }
@@ -2181,21 +2086,22 @@ button.grow_ellipse:hover::after {
     padding-right: 0px;
   }
 
-  .redes{
+  .redes {
     padding-left: 0px;
-   
   }
 
-  .navbar-nav a{
+  .navbar-nav a {
     padding-left: 0px;
   }
 
   .redes img {
-  height: 50px;
-  margin-left: 20px;
+    height: 50px;
+    margin-left: 20px;
   }
 
-  .serv3,.serv2,.serv1{
+  .serv3,
+  .serv2,
+  .serv1 {
     justify-content: center !important;
     flex-direction: column;
     max-width: 90%;
@@ -2217,52 +2123,47 @@ button.grow_ellipse:hover::after {
   #myChart {
     max-height: 200px; /* Altura máxima ajustada */
   }
-
 }
 
-@media(501px <= width <=900px){
-  .formulario2{
-      margin-top: 21rem;
+@media (501px <= width <=900px) {
+  .formulario2 {
+    margin-top: 21rem;
   }
-  .main2{
-      height: 47rem;
+  .main2 {
+    height: 47rem;
   }
-  .formulario{
-  margin-top:14rem ;
+  .formulario {
+    margin-top: 14rem;
   }
-  main{
-      height: 32rem;
+  main {
+    height: 32rem;
   }
-  
 }
 
 @media (width < 500px) {
   main {
-      height: 89.4vh;
+    height: 89.4vh;
   }
- 
-  .formulario2{
-      width: 350px;
+
+  .formulario2 {
+    width: 350px;
   }
- 
 
   .formulario {
-      width: 350px;
-      margin-bottom: 80rem !important;
+    width: 350px;
+    margin-bottom: 80rem !important;
   }
-  #formularioContactanos{
+  #formularioContactanos {
     margin-top: 13rem;
   }
-  .mainCorreo{
+  .mainCorreo {
     height: 113vh;
   }
-
 }
-@media (width < 427px){
-  .contenedor5{
+@media (width < 427px) {
+  .contenedor5 {
     position: relative;
   }
 }
-
 
 /* Fin Media Query */
